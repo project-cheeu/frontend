@@ -1,0 +1,189 @@
+.app-layout {
+  width: 100%;
+  height: 100%;
+  background: #40a9ff;
+  position: relative;
+}
+
+.app-layout .app-layout-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%); */
+  opacity: 0.9;
+}
+
+.app-layout .app-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.app-layout .app-content .speaker {
+  width: 10vw;
+  height: 15%;
+  position: absolute;
+  top: 3%;
+  left: 0;
+  transition: width 0.5s;
+  background: white;
+  border-radius: 0px 90px 90px 0px;
+  cursor: pointer;
+  font-size: 0;
+  color: white;
+}
+
+.app-layout .app-content .speaker:hover {
+  width: 30vw;
+  height: 15%;
+  position: absolute;
+  top: 3%;
+  left: 0;
+  transition: width 0.5s, color 1s;
+  background: #ffffff;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 90px 90px 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.app-layout .app-content .speaker .icon-container {
+  /* border: 1px solid #f00; */
+}
+
+.app-layout .app-content .speaker img {
+  max-width: 8vw;
+  min-width: 8vw;
+  /* border: 1px solid #f00; */
+}
+
+.app-layout .app-content .speaker .speaker-content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-layout .app-content .speaker .speaker-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.app-layout .app-content .speaker .speaker-text div {
+  width: 100%;
+  text-align: left;
+}
+
+.app-layout .app-content .speaker .speaker-text .strong {
+  color: red;
+}
+
+.app-layout .app-content .redirect-switch {
+  position: absolute;
+  right: 1vw;
+  top: 3vh;
+  width: 40vh;
+  height: 15vh;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app-layout .app-content .redirect-switch .redirect-button {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  background: white;
+  filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.15));
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1vw;
+}
+
+.app-layout .app-content .redirect-switch .redirect-button img {
+  width: 5vw;
+}
+
+.app-layout .app-content .redirect-switch .redirect-button .title {
+  font-size: 2vw;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.app-layout .app-content .redirect-switch .redirect-button .sub {
+  font-size: 1.25vw;
+}
+.app-layout .app-content .redirect-switch .redirect-button .red {
+  color: red;
+}
+
+.app-layout .app-content .home .icon {
+  font-size: 4vw;
+}
+
+.main-home-container {
+  border: 5px solid white;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #fff; */
+}
+
+.main-home-container .home-btn {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+}
+
+.main-below-box {
+  /* border: 0.35vw solid #1890ff; */
+  background: #1890ff;
+  width: 5vw;
+  height: 5vw;
+  position: absolute;
+  bottom: 1vh;
+  left: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.main-below-box .navigate-admin-button-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-below-box .navigate-admin-button-area .navigate-admin-button-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  /* color: #1890ff; */
+  font-size: 3.5vw;
+}

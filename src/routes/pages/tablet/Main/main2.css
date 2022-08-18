@@ -1,0 +1,181 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container > .left-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* color: white; */
+  /* background: white; */
+}
+
+.main-container .left-side .logo {
+  width: 80%;
+  max-width: 80%;
+  max-height: 20%;
+}
+
+.main-container .left-side .title {
+  width: 80%;
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.main-container .left-side .desc {
+  width: 80%;
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+
+/* 태블릿 등록 영역 */
+.main-container .left-side .regist-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: white; */
+  color: white;
+}
+
+/* 태블릿 영역 진하게 */
+.main-container .left-side .regist-wrapper .strong {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+/* 태블릿 영역 컨테이너 */
+.main-container .left-side .regist-wrapper .regist {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* 테블릿 영역 시스템 타이틀 */
+.main-container .left-side .regist-wrapper .regist .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3vw;
+  line-height: 1.5;
+}
+
+/* 태블릿 영역 시스템 설명 */
+.main-container .left-side .regist-wrapper .regist .desc {
+  width: 100%;
+  /* height: 15%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+/* 태블릿 영역 시스템 타이틀 폰트 크게 */
+.main-container .left-side .regist-wrapper .strong.title {
+  font-size: 2.5vw;
+}
+
+/* 태블릿 영역 접수영역 */
+.main-container .left-side .regist-wrapper .arrow {
+  font-size: 2vw;
+  display: flex;
+  margin: 5% 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* 태블릿 영역 화살표 */
+.main-container .left-side .regist-wrapper .arrow .arrow-icon {
+  font-size: 2vw;
+}
+
+/* 접수 버튼 */
+.main-container .left-side .regist-wrapper .regist-btn {
+  height: 10%;
+  margin: 2vh 0;
+  font-size: 1.5vw;
+}
+
+/* 접수영역 */
+.main-container > .right-side {
+  width: 50%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: black;
+}
+
+/* QRCode */
+.main-container .right-side .qr-wrapper {
+  width: 100%;
+  height: 100%;
+  background: #1890ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+/* QRCode Image */
+.main-container .right-side .qr-img {
+  width: 70%;
+  max-height: 70%;
+}
+
+/* QRCode 타이틀 */
+.main-container .right-side .qr-wrapper .title {
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+
+/* QRCode 설명 */
+.main-container .right-side .qr-wrapper .desc {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+.main-container .left-side .title-wrapper {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container .left-side .desc-wrapper {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .left-side .logo-wrapper {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .left-side .logo-wrapper .main-logo {
+  width: 35%;
+}

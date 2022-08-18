@@ -1,0 +1,17 @@
+export { default as URAuthApi } from './URAuthApi';
+export { default as URCompanyApi } from './URCompanyApi';
+export { default as URCompanyAssetsApi } from './URCompanyAssetsApi';
+export { default as URMedicalApi } from './URMedicalApi';
+export { default as URFileApi } from './URFileApi';
+export { default as URCustomerApi } from './URCustomerApi';
+export { default as URSurveyApi } from './URSurveyApi';
+export { default as URManagerApi } from './URManagerApi';
+export { default as URDashboardApi } from './URDashboardApi';
+export { default as URMemberApi } from './URMemberApi';
+export { default as URDeptApi } from './URDeptApi';
+export { default as URStatisticsApi } from './URStatisticsApi';
+export { default as URAlimtalkApi } from './URAlimtalkApi';
+export { default as URAgreementApi } from './URAgreementApi';
+export { default as URReservationApi } from './URReservationApi';
+export { default as URCompanyScheduleApi } from './URCompanySchedule';
+export { default as URWaitApi } from './URWaitApi';

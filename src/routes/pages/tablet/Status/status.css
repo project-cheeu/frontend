@@ -1,0 +1,49 @@
+.status-presenter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-presenter .right-side .table-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.status-presenter .right-side .title {
+  font-size: 2vw;
+  line-height: 2;
+  margin-bottom: 1vh;
+}
+
+.status-presenter .right-side .title .strong {
+  font-size: 4vw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Table */
+
+.status-presenter table,
+.status-presenter table * {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.status-presenter .ant-table-thead * {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.status-presenter .ant-table-thead .ant-table-cell {
+  height: 5vh;
+}
+
+.status-presenter .ant-empty {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

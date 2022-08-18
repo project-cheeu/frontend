@@ -1,0 +1,105 @@
+.main-preseneter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* 메인화면 상단 텍스트 */
+.main-title-box {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+  flex-direction: column;
+}
+
+.main-title-box .main-title-header {
+  font-size: 5vw;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  line-height: 2;
+}
+
+.main-title-box .main-title-welcome {
+  font-size: 2vw;
+  color: white;
+}
+
+.main-title-box .main-title-welcome .title {
+  font-size: 3vw;
+  color: white;
+  font-weight: bolder;
+}
+
+/* 메인화면 UI*/
+.main-menu-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.main-menu-box > a {
+  width: 40%;
+  height: 90%;
+  margin: 5%;
+}
+
+.main-menu-box > a:hover {
+  box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.5s;
+}
+
+/* 메인화면 메뉴 선택 UI */
+.main-menu-box .menu-item {
+  width: 100%;
+  height: 100%;
+  color: #646464;
+  background: white;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.main-menu-box .menu-item .menu-icon-area {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.main-menu-box .menu-item .menu-icon-area img {
+  max-width: 30%;
+  max-height: 60%;
+}
+
+.main-menu-box .menu-item .menu-text-area .title {
+  font-size: 4vw;
+  color: #ff5d5d;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.main-menu-box .menu-item .menu-text-area .sub {
+  font-size: 2vw;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.main-menu-box .menu-item .menu-text-area .red {
+  color: #ff5d5d;
+}
+
+/* 메인회면 하단 인터페이스 */

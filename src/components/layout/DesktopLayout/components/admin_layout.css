@@ -1,0 +1,22 @@
+.site-layout-container {
+  height: 100%;
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+.site-layout .site-layout-background {
+  /* height: 100%; */
+  background: #fff;
+}
+
+.site-header-logout {
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.site-header-logout:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 12px;
+}

@@ -1,0 +1,26 @@
+.video-container {
+  width: 100%;
+  height: 100%;
+}
+
+.video-container .video-item {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.video-container .video-item .video-info {
+  width: 100%;
+}
+
+.video-container .video-item .video-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 1rem 0;
+}
+
+.video-container .btn-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

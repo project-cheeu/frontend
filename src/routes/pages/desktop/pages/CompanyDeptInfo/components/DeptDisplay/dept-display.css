@@ -1,0 +1,21 @@
+.dept-display-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 1%;
+  margin: 1% 0;
+}
+
+.dept-display-container .title {
+  padding: 1%;
+}
+
+.dept-display-container table,
+.dept-display-container table * {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.dept-display-container .ant-table-thead * {
+  text-align: center;
+  vertical-align: middle;
+}

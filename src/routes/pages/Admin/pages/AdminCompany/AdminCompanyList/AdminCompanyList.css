@@ -1,0 +1,10 @@
+.admin-company-list table,
+.admin-company-list table * {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.admin-company-list .ant-table-thead * {
+  text-align: center;
+  vertical-align: middle;
+}

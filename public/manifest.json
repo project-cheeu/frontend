@@ -1,0 +1,25 @@
+{
+  "short_name": "CheeU",
+  "name": "비대면 접수 시스템 CheeU",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

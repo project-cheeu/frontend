@@ -1,0 +1,141 @@
+/* 문진화면 프레젠터 */
+.ps-presenter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 문진화면 상단 타이틀 */
+.ps-presenter .ps-title-box {
+  width: 100%;
+  height: 30%;
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.ps-presenter .ps-title-box .ps-title-icon {
+  font-size: 4rem;
+}
+
+.ps-presenter .ps-title-box .ps-title-text {
+  display: flex;
+  font-size: 3.5rem;
+}
+
+.ps-presenter .ps-title-box .ps-title-text .ps-title-step {
+}
+
+/* 문진화면 하단의 버튼 인터페이스 */
+.ps-presenter .ps-content-step-btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  height: 20%;
+}
+
+.ps-presenter .ps-content-step-btn-box .ps-content-step-btn {
+  cursor: pointer;
+  width: 25%;
+  /* height: 105px; */
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 60px;
+  /* 버튼 아이콘 공통 컬러 */
+  color: #fff;
+}
+
+/* 이전 다음 버튼 */
+
+.ps-presenter .ps-content-step-btn-box .ps-content-step-btn.prev {
+  background-color: #a3a3a3;
+}
+
+.ps-presenter .ps-content-step-btn-box .ps-content-step-btn.next {
+  background-color: #ff4a6b;
+}
+
+/* 버튼 아이콘 */
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-icon {
+  font-size: 2rem;
+}
+
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-icon.prev {
+}
+
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-icon.next {
+}
+
+/* 버튼 텍스트 */
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-text {
+  font-size: 2rem;
+  font-weight: bolder;
+  user-select: none;
+}
+
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-text.prev {
+}
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-text.next {
+}
+
+/* 문진화면 항목 체크 컨텐츠 영역 */
+.ps-presenter .ps-content-box {
+  width: 100%;
+  flex-basis: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.ps-presenter .ps-content-box .ps-content-flex-box {
+  width: 95%;
+  height: 70%;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid #f00; */
+}
+
+.ps-content-box .ps-content-flex-box {
+  width: 100%;
+  height: 100%;
+  padding: 4vh;
+}
+.ps-presenter .ps-content-box .ps-content-question-area {
+  width: 100%;
+  font-size: 30px;
+  color: #646464;
+  border-bottom: 4px solid #3290ff;
+}
+
+.ps-presenter .ps-content-box .ps-content-question-area .checkbox-btn {
+  color: red;
+}
+
+.ps-presenter .ps-content-box .ps-content-radio-btn-area {
+  margin-top: 2%;
+}

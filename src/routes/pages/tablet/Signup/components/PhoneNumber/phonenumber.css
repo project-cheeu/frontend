@@ -1,0 +1,100 @@
+.phonenumber-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Left side */
+.phonenumber-container .left-side {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+/* Left side 아이콘 */
+.phonenumber-container .left-side .phone-icon {
+  font-size: 5vw;
+  font-weight: bold;
+  color: white;
+  line-height: 1.5;
+}
+
+/* Left side 타이틀 */
+.phonenumber-container .left-side .phone-title {
+  font-size: 2vw;
+  line-height: 2;
+  margin-bottom: 1vh;
+}
+
+/* Left side 타이틀 강조 */
+.phonenumber-container .left-side .phone-title .strong {
+  font-size: 4vw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Left side 설명 */
+.phonenumber-container .left-side .phone-title .desc {
+  font-size: 1.5vw;
+}
+
+.phonenumber-container .right-side {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.phonenumber-container .right-side .phone-input {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 5vw;
+}
+
+.phonenumber-container .right-side .phone-dial {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.phonenumber-container .right-side .phone-dial .dial-wrapper {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.phonenumber-container .right-side .phone-dial .dial-wrapper .blank {
+  width: 6vw;
+  height: 6vw;
+  margin: 1vw;
+}
+.phonenumber-container .right-side .phone-dial .dial-wrapper .dial {
+  width: 6vw;
+  height: 6vw;
+  margin: 1vw;
+  font-size: 3vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(24, 144, 255, 0.7);
+  color: white;
+}

@@ -1,0 +1,287 @@
+/* 문진화면 프레젠터 */
+.ps-presenter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+/* 문진화면 상단 타이틀 */
+.ps-presenter .ps-title-box {
+  width: 100%;
+  height: 20%;
+  /* flex-basis: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.ps-presenter .ps-title-box .ps-title-icon {
+  font-size: 5vw;
+  line-height: 1;
+}
+
+.ps-presenter .ps-title-box .ps-title-text {
+  display: flex;
+  font-size: 4vw;
+  line-height: 1;
+}
+
+.ps-presenter .ps-title-box .ps-title-text .ps-title-step {
+}
+
+/* 문진화면 하단의 버튼 인터페이스 */
+.ps-presenter .ps-content-step-btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  height: 15%;
+}
+
+.ps-presenter .ps-content-step-btn-box .ps-content-step-btn {
+  cursor: pointer;
+  width: 25%;
+  /* height: 105px; */
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 60px;
+  /* 버튼 아이콘 공통 컬러 */
+  color: #fff;
+}
+
+/* 이전 다음 버튼 */
+
+.ps-presenter .ps-content-step-btn-box .ps-content-step-btn.prev {
+  background-color: #a3a3a3;
+}
+
+.ps-presenter .ps-content-step-btn-box .ps-content-step-btn.next {
+  background-color: #ff4a6b;
+}
+
+/* 버튼 아이콘 */
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-icon {
+  font-size: 2rem;
+}
+
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-icon.prev {
+}
+
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-icon.next {
+}
+
+/* 버튼 텍스트 */
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-text {
+  font-size: 2rem;
+  font-weight: bolder;
+  user-select: none;
+}
+
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-text.prev {
+}
+.ps-presenter
+  .ps-content-step-btn-box
+  .ps-content-step-btn
+  .ps-content-step-btn-text.next {
+}
+
+/* 문진화면 항목 체크 컨텐츠 영역 */
+.ps-presenter .ps-content-box {
+  width: 100%;
+  /* flex-basis: 100%; */
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.ps-presenter .ps-content-box .ps-content-flex-box {
+  width: 95%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  /* border: 1px solid #f00; */
+}
+
+.ps-content-box .ps-content-flex-box {
+  width: 100%;
+  padding: 4vh;
+  overflow: hidden;
+}
+.ps-presenter .ps-content-box .ps-content-question-area {
+  width: 100%;
+  font-size: 3vw;
+  color: #646464;
+  border-bottom: 3px solid #3290ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ps-presenter .ps-content-box .ps-content-radio-btn-area {
+  width: 100%;
+  min-height: 70%;
+  font-size: 2.5vw;
+}
+
+.ps-presenter .ps-content-box .ps-content-radio-btn-area .ant-radio-group {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.ps-presenter .ps-content-box .ps-content-radio-btn-area .ant-radio-wrapper {
+  display: flex;
+  width: 48%;
+  margin: 0.5%;
+  flex-wrap: wrap;
+  font-size: 2.5vw;
+}
+
+.ps-presenter .ps-content-box .ps-content-radio-btn-area .ant-checkbox-group {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-checkbox-group
+  .ant-checkbox-wrapper {
+  width: 48%;
+  font-size: 2.5vw;
+  margin: 0.5vw;
+}
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-checkbox-group
+  .ant-checkbox-wrapper
+  .ant-checkbox,
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-checkbox-group
+  .ant-checkbox-wrapper
+  .ant-checkbox
+  .ant-checkbox-inner {
+  width: 2.5vw;
+  height: 2.5vw;
+  font-size: 2.5vw;
+}
+
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-checkbox-group
+  .ant-checkbox-wrapper
+  .ant-checkbox.ant-checkbox-checked
+  .ant-checkbox-input {
+  width: 2.5vw;
+  height: 2.5vw;
+  font-size: 2.5vw;
+  text-align: center;
+}
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-radio-wrapper
+  .ant-radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-radio-wrapper
+  .ant-radio
+  .ant-radio-inner {
+  width: 2vw;
+  height: 2vw;
+  border: 1px solid #5e5e5e;
+  border-radius: 50%;
+}
+
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-radio-wrapper-checked
+  .ant-radio.ant-radio-checked:checked {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+}
+
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-radio-wrapper-checked
+  .ant-radio.ant-radio-checked
+  .ant-radio-inner {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+}
+
+.ps-presenter
+  .ps-content-box
+  .ps-content-radio-btn-area
+  .ant-radio-wrapper-checked
+  .ant-radio.ant-radio-checked
+  .ant-radio-inner::after {
+  width: 1.5vw;
+  height: 1.5vw;
+  top: 0.2vw;
+  left: 0.2vw;
+  border-radius: 50%;
+}
+
+.ps-presenter .ps-content-box .reply_questions {
+}
+
+.ps-presenter .ps-content-box .reply_answer {
+  font-size: 2vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ps-presenter .ps-content-box .reply_answer .replys_answer_item {
+  margin: 0.5vw;
+  padding: 0.5vw 1.5vw;
+  border-radius: 3vw;
+  background-color: #108ee9;
+  color: white;
+}

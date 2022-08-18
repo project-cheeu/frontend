@@ -1,0 +1,16 @@
+.assets-display-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 1%;
+  margin: 1% 0;
+}
+
+.assets-display-container .title {
+  padding: 1%;
+}
+
+.assets-display-container .company_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

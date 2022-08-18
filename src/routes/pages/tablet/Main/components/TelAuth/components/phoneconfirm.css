@@ -1,0 +1,43 @@
+.phoneconfirm-container {
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.phoneconfirm-container .userinfo-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  margin: 2vh;
+}
+
+.phoneconfirm-container .userinfo-container .userinfo {
+  font-size: 2.5vw;
+}
+
+.phoneconfirm-container .userinfo-container .userinfo.multi {
+  width: 100%;
+  cursor: pointer;
+}
+
+.phoneconfirm-container .btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh 0;
+}
+
+.phoneconfirm-container .btn-container .phoneconfirm-btn {
+  width: 35%;
+  height: 100%;
+  margin: 0 2vw;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2vw;
+}

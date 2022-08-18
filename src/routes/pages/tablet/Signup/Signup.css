@@ -1,0 +1,143 @@
+/* Signup Presenter */
+.signup-presenter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.process-button-box {
+  width: 15%;
+  height: 50%;
+}
+
+/* 이전, 이후 버튼 버튼 */
+.btn-signup-process {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 70px;
+  font-weight: bolder;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.btn-signup-process.signup-process-prev {
+  border-radius: 40px 0 0 40px;
+  background-color: #a3a3a3;
+}
+
+.btn-signup-process.signup-process-next {
+  border-radius: 0 40px 40px 0;
+
+  background-color: #ff4a6b;
+}
+
+.btn-signup-process .icon-area {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-signup-process .text-area {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* 프로세스 컴포넌트가 표시되는 영역 */
+.process-content-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+  height: 50vh;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+  background: white;
+}
+
+.process-component-area {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-area {
+  width: 100%;
+  text-align: center;
+  color: #646464;
+  line-height: 1;
+}
+
+/* input field */
+.signup-input-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* 
+.input-box {
+  width: 95%;
+  border: 1px solid #646464;
+}
+
+.input-box .input-field-area {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  text-align: center;
+}
+.input-box .input-field-area.input-name {
+  font-size: 10vw;
+}
+
+.input-box .input-field-area.input-num {
+  font-size: 5vw;
+  border: none;
+  color: 'black';
+} */
+
+/* address choice box */
+.address-box {
+  width: 95%;
+  height: 100%;
+  /* flex-basis: 100%; */
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  /* border: 1px solid #f00; */
+}
+
+.select-box {
+  width: 95%;
+  border: 1px solid #646464;
+  box-sizing: border-box;
+  /* height: 112px; */
+  /* border: 1px solid #f00; */
+}
+
+.select-box .ant-select-selector {
+  height: 100% !important;
+
+  font-size: 40px !important;
+  line-height: 58px;
+  font-weight: bold;
+}
+
+.select-box .ant-select-selector .ant-select-selection-placeholder,
+.select-box .ant-select-selector .ant-select-selection-item {
+  /* color: red; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

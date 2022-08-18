@@ -1,0 +1,83 @@
+.medical-presenter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medical-presenter .left-side {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.medical-presenter .left-side .phone-icon {
+  font-size: 10vw;
+  font-weight: bold;
+  color: white;
+  line-height: 1.5;
+}
+
+.medical-presenter .left-side .phone-title {
+  font-size: 2vw;
+  line-height: 2;
+  margin-bottom: 1vh;
+}
+
+.medical-presenter .left-side .phone-title .strong {
+  font-size: 4vw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.medical-presenter .left-side .phone-title .desc {
+  font-size: 1.5vw;
+}
+
+.medical-presenter .right-side {
+  width: 70%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: black;
+}
+
+.medical-presenter .right-side .table-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Table */
+
+.medical-presenter table,
+.medical-presenter table * {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.medical-presenter .ant-table-thead * {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.medical-presenter .ant-empty {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.medical-presenter .ant-spin-nested-loading,
+.medical-presenter .ant-spin-container,
+.medical-presenter .ant-table,
+.medical-presenter .ant-table-container {
+  height: 100vh;
+}

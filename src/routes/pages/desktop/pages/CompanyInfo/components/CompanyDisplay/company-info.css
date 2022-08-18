@@ -1,0 +1,12 @@
+.company-info-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 1%;
+  margin: 1% 0;
+}
+
+.company-info-container .company_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
